@@ -79,3 +79,20 @@ footer .links > a {
    color: rgb(108,117,125);
    font-family: 'Times New Roman', Times, serif; 
 }
+
+li {
+    list-style-type: none; 
+}
+ul li:nth-child(even) {
+    color: rgb(3, 141, 3);
+}
+
+#one::before {
+    content: "NEW";
+    color: red;
+}
+
+#two::before {
+    content: "NEW";
+    color: red;
+}
